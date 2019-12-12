@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.barback.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_discover"
+        android:name="com.example.barback.DiscoverFragment"
+        android:label="@string/menu_discover"
+        tools:layout="@layout/fragment_discover" />
+
+    <fragment
+        android:id="@+id/nav_create"
+        android:name="com.example.barback.CreateFragment"
+        android:label="@string/menu_create"
+        tools:layout="@layout/fragment_create" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.barback.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_checkout"
+        android:name="com.example.barback.CheckOutFragment"
+        android:label="@string/menu_checkout"
+        tools:layout="@layout/fragment_check_out" />
+
+    <fragment
+        android:id="@+id/nav_account_settings"
+        android:name="com.example.barback.AccountSettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_account_settings" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.barback.AboutUsFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>

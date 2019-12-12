@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cardview_frame_border"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/rDrinkName"
+            style="@style/TextHighlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingTop="10dp"
+            android:text="Beer name"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <ImageView
+            android:id="@+id/rDrinkImage"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            android:background="@drawable/frame_border"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:background="@drawable/category_border"
+            style="@style/TextHighlight"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="ABV: "
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/rABV"
+            style="@style/TextHighlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/details_border"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="10dp"
+            android:text="ABV"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:background="@drawable/category_border"
+            style="@style/TextHighlight"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Calories: "
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/rCalories"
+            style="@style/TextHighlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/details_border"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="10dp"
+            android:text="Calories"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:background="@drawable/category_border"
+            style="@style/TextHighlight"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Taste: "
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/rTaste"
+            style="@style/TextHighlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/details_border"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="10dp"
+            android:text="Taste"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:background="@drawable/category_border"
+            style="@style/TextHighlight"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Price: "
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/rPrice"
+            style="@style/TextHighlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/details_border"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="10dp"
+            android:text="Price"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+
+        </View>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

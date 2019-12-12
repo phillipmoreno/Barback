@@ -1,0 +1,73 @@
+<resources>
+    <string name="about_us_authors">Authors: Phillip Moreno, Ivan Williams, Jafar Shariff</string>
+    <string name="about_us_description">Founded in December of 2019 and based in Long Island, New York, Bar-Back aims to provide
+    their users with a simple solution to not knowing what to order when at the bar. \n\nOur mission is to ensure that our users can
+    easily make a decision on their choice of drink in a short period of time, and end up satisfied with their choice. \n\n\The way our
+    application works is that users can filter their types of drinks using filters such as taste, alcohol percentage, calories, price
+    , and more. We hope you have a pleasant experience with Bar-Back!</string>
+    <string name="about_us_version">Version: 1.0.1</string>
+    <string name="account_info">Account Information</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="added_to_cart">Your item has been added to your cart!</string>
+    <string name="app_name">Barback</string>
+    <string name="author">By: The Bar Bros</string>
+    <string name="cart_cleared">Your cart has been cleared</string>
+    <string name="cart_header">Items added to your cart will appear below</string>
+    <string name="email_address">Email:</string>
+    <string name="first_name">First Name</string>
+    <string name="facebook_app_id">805665736530810</string>
+    <string name="fb_login_protocol_scheme">fb805665736530810</string>
+    <string name="full_name">Full name:</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_email">Confirm Email</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="history_header">Your previously purchased items will appear below</string>
+
+    <string name="last_name">Last Name</string>
+    <string name="login">Login to Barback</string>
+    <string name="logout1">Log out from Barback?</string>
+    <string name="logout2">Yes, log out</string>
+    <string name="logout3">No, stay signed in</string>
+
+    <string name="no_items">You have no items in your cart</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_discover">Discover Drinks</string>
+    <string name="menu_create">Create Your Own Drink</string>
+    <string name="menu_history">History</string>
+    <string name="menu_checkout">Checkout</string>
+    <string name="menu_log_out">Log Out</string>
+    <string name="menu_settings">Account Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BarBack</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="order_placed">Your order has been placed!</string>
+    <string name="profile_picture">Profile Picture</string>
+
+    <string name="recommend">Check out the featured drink of the day</string>
+    <string name="registration">Create Account</string>
+    <string name="registration2">Register Now</string>
+
+    <string name="sign_in_unsuccessful">Sign-In Unsuccessful, Please Try Again</string>
+
+    <string name="abv">ABV:</string>
+    <string name="calories">Calories:</string>
+    <string name="taste">Taste:</string>
+    <string name="price">Price:</string>
+
+    <string name="pay_now">Pay Now</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="clear_all_items">Clear all items from cart?</string>
+
+    <string name="yescc">Yes, clear cart</string>
+    <string name="nocc">No, return to cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
